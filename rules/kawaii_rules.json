@@ -1,0 +1,20 @@
+"rules": [
+  "domain": [
+      "rutracker.org",
+      "youtu.be",
+      "yt3.ggpht.com"
+  ],
+  "domain_keyword": [],
+  "domain_regex": [],
+  "domain_suffix": [
+      "googlevideo.com",
+      "youtube.com",
+      "googleusercontent.com",
+      "googleapis.com",
+      "doubleclick.net",
+      "google.com",
+      "ytimg.com"
+  ],
+  "geosite": [],
+  "outbound": "proxy"
+]
