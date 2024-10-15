@@ -1,0 +1,15 @@
+{
+	"custom": "{\"rules\":[]}",
+	"def_outbound": "bypass",
+	"direct_dns": "local",
+	"direct_dns_strategy": "prefer_ipv4",
+	"dns_final_out": "proxy",
+	"dns_routing": true,
+	"domain_strategy": "prefer_ipv4",
+	"outbound_domain_strategy": "prefer_ipv4",
+	"proxy_domain": "domain:googlevideo.com\ndomain:youtube.com\ndomain:googleusercontent.com\ndomain:googleapis.com\ndomain:doubleclick.net\ndomain:google.com\ndomain:ytimg.com\ndomain:discordapp.com\nrutracker.org\nyoutu.be\nyt3.ggpht.com\n",
+	"remote_dns": "https://1.1.1.1/dns-query",
+	"remote_dns_strategy": "prefer_ipv4",
+	"sniffing_mode": 1,
+	"use_dns_object": false
+}
