@@ -7,7 +7,7 @@
 	"dns_routing": true,
 	"domain_strategy": "prefer_ipv4",
 	"outbound_domain_strategy": "prefer_ipv4",
-	"proxy_domain": "domain:googlevideo.com\ndomain:youtube.com\ndomain:googleusercontent.com\ndomain:googleapis.com\ndomain:doubleclick.net\ndomain:google.com\ndomain:ytimg.com\ndomain:discordapp.com\nrutracker.org\nyoutu.be\nyt3.ggpht.com\nthepiratebay.org\nb-ok.cc\nvk.com",
+	"proxy_domain": "domain:googlevideo.com\ndomain:youtube.com\ndomain:googleusercontent.com\ndomain:googleapis.com\ndomain:doubleclick.net\ndomain:google.com\ndomain:ytimg.com\ndomain:discordapp.com\nrutracker.org\nyoutu.be\nyt3.ggpht.com\nthepiratebay.org",
 	"remote_dns": "https://1.1.1.1/dns-query",
 	"remote_dns_strategy": "prefer_ipv4",
 	"sniffing_mode": 1,
