@@ -1,3 +1,3 @@
 # kawaiiselbst.github.io
 
-[Axeman Test](Axeman/AxemanSurvivor.html)
+[Axeman Test](https://kawaiiselbst.github.io)
