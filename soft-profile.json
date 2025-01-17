@@ -1,15 +1,14 @@
 {
-	"custom": "{\"rules\":[]}",
-	"def_outbound": "bypass",
-	"direct_dns": "local",
-	"direct_dns_strategy": "prefer_ipv4",
-	"dns_final_out": "proxy",
-	"dns_routing": true,
-	"domain_strategy": "prefer_ipv4",
-	"outbound_domain_strategy": "prefer_ipv4",
-	"proxy_domain": "domain:googlevideo.com\ndomain:youtube.com\ndomain:googleusercontent.com\ndomain:googleapis.com\ndomain:doubleclick.net\ndomain:google.com\ndomain:ytimg.com\ndomain:discordapp.com\nrutracker.org\nyoutu.be\nyt3.ggpht.com\nthepiratebay.org",
-	"remote_dns": "https://1.1.1.1/dns-query",
-	"remote_dns_strategy": "prefer_ipv4",
-	"sniffing_mode": 1,
-	"use_dns_object": false
+    "custom": "{\"rules\":[]}",
+    "def_outbound": "bypass",
+    "direct_dns": "https://1.0.0.1/dns-query",
+    "dns_final_out": "proxy",
+    "dns_routing": true,
+    "domain_strategy": "ipv4_only",
+    "outbound_domain_strategy": "ipv4_only",
+    "proxy_domain": "domain:googlevideo.com\ndomain:youtube.com\ndomain:youtube-nocookie.com\nwww.youtube-nocookie.com\ndomain:googleusercontent.com\ndomain:googleapis.com\ndomain:doubleclick.net\ndomain:google.com\ndomain:ytimg.com\ndomain:youtu.be\nyt3.ggpht.com\n\ndomain:discord.gg\ndomain:discord.com\ndomain:discordapp.com\ndomain:discord.media\ndomain:discordapp.net\ndomain:discordcdn.com\ndomain:discord.dev\ndomain:discord.new\ndomain:discord.gift\ndomain:discordstatus.com\ndomain:dis.gd\ndomain:discord.co\n\ndomain:wixmp.com\ndomain:notion.so\ndomain:rutracker.cc\ndomain:patreon.com\ndomain:redgifs.com\ndomain:twitter.com\ndomain:x.com\ndomain:twimg.com\ndomain:t.co\nsuno.com\nmeduza.io\ngofile.io\nrutracker.org\nthepiratebay.org\nb-ok.cc\n7tv.app\n\npornhub.com\npornolab.net\ndomain:furaffinity.net\n1337x.to\ntheporndude.com\n\ndomain:jsdelivr.net\ndomain:groq.com\ndomain:godotengine.org\nrentry.org\nmise.jdx.dev\nbazel.build\n\nchallenges.cloudflare.com\n\ndomain:phind.com\ncopilot.microsoft.com\n\nsmotret-anime.net\n\ndomain:ficbook.net",
+    "remote_dns": "https://1.1.1.1/dns-query",
+    "remote_dns_strategy": "prefer_ipv4",
+    "sniffing_mode": 1,
+    "use_dns_object": false
 }
